@@ -1,0 +1,14 @@
+D:\_documents\bureau\calculette projet c sharp\bin\Debug\net8.0\calculette projet c sharp.exe
+D:\_documents\bureau\calculette projet c sharp\bin\Debug\net8.0\calculette projet c sharp.deps.json
+D:\_documents\bureau\calculette projet c sharp\bin\Debug\net8.0\calculette projet c sharp.runtimeconfig.json
+D:\_documents\bureau\calculette projet c sharp\bin\Debug\net8.0\calculette projet c sharp.dll
+D:\_documents\bureau\calculette projet c sharp\bin\Debug\net8.0\calculette projet c sharp.pdb
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.AssemblyInfoInputs.cache
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.AssemblyInfo.cs
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.csproj.CoreCompileInputs.cache
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.dll
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\refint\calculette projet c sharp.dll
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.pdb
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\calculette projet c sharp.genruntimeconfig.cache
+D:\_documents\bureau\calculette projet c sharp\obj\Debug\net8.0\ref\calculette projet c sharp.dll
