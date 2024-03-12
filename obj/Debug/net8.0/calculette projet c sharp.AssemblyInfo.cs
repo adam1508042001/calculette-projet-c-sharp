@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculette projet c sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46db3f6a8541c4de666676f43b6dd24bc1e7870d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b46178bd2bb2db8172c0ad1cdd7748641f55f27")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculette projet c sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculette projet c sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

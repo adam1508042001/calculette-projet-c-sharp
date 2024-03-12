@@ -7,11 +7,34 @@ class Program
         // Définir les variables
         double num1, num2, resultat;
 
-        // Saisir les nombres
-        Console.WriteLine("Entrez le premier nombre : ");
-        num1 = double.Parse(Console.ReadLine());
-        Console.WriteLine("Entrez le deuxième nombre : ");
-        num2 = double.Parse(Console.ReadLine());
+        // Saisir les nombres en vérifiant que les valeurs saisies sont valides
+        bool validInput = false;
+        do
+        {
+            Console.WriteLine("Entrez le premier nombre : ");
+            if (double.TryParse(Console.ReadLine(), out num1))
+            {
+                validInput = true;
+            }
+            else
+            {
+                Console.WriteLine("Nombre invalide, veuillez réessayer.");
+            }
+        } while (!validInput);
+
+        validInput = false;
+        do
+        {
+            Console.WriteLine("Entrez le deuxième nombre : ");
+            if (double.TryParse(Console.ReadLine(), out num2))
+            {
+                validInput = true;
+            }
+            else
+            {
+                Console.WriteLine("Nombre invalide, veuillez réessayer.");
+            }
+        } while (!validInput);
 
         // Choisir l'opération
         Console.WriteLine("Choisissez l'opération (+, -, *, /) : ");
@@ -30,11 +53,19 @@ class Program
                 resultat = num1 * num2;
                 break;
             case "/":
-                resultat = num1 / num2;
+                if (num2 != 0)
+                {
+                    resultat = num1 / num2;
+                }
+                else
+                {
+                    Console.WriteLine("Division par zéro impossible !");
+                    return; // Quitter le programme si la division par zéro est tentée
+                }
                 break;
             default:
-                Console.WriteLine("Opération invalide!");
-                return;
+                Console.WriteLine("Opération invalide !");
+                return; // Quitter le programme si une opération invalide est choisie
         }
 
         // Afficher le résultat
